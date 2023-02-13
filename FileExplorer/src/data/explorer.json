@@ -1,0 +1,58 @@
+{
+  "name": "root",
+  "isDir": true,
+  "items": [
+    {
+      "name": "public",
+      "isDir": true,
+      "items": [
+        {
+          "name": "index.html",
+          "isDir": false
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "isDir": true,
+      "items": [
+        {
+          "name": "components",
+          "isDir": true,
+          "items": [
+            {
+              "name": "FileSystem.js",
+              "isDir": false
+            }
+          ]
+        },
+        {
+          "name": "data",
+          "isDir": true,
+          "items": [
+            {
+              "name": "explorer.json",
+              "isDir": false
+            }
+          ]
+        },
+        {
+          "name": "app.js",
+          "isDir": false
+        },
+        {
+          "name": "index.js",
+          "isDir": false
+        },
+        {
+          "name": "styles.css",
+          "isDir": false
+        }
+      ]
+    },
+    {
+      "name": "package.json",
+      "isDir": false
+    }
+  ]
+}
