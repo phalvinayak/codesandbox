@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} 
+
+.todo__form input{
+  width: 350px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.todo__form button{
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+}
+
+
+.todo__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo__single{
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: #5dadf8;
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+}
+
+.todo__single.done span{
+  text-decoration: line-through;
+}
+
+.todo__text{
+  flex: 1;
+  text-align: start;
+}
+
+.todo__list button{
+  border-radius: 25px;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  background-color: orangered;
+}
+
+.todo__list button.done{
+  background-color: rgb(37, 54, 141);
+}
